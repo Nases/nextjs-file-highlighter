@@ -22,6 +22,7 @@
     ]
   },
   "scripts": {
+    "save": "git add . && git commit -m 'bump' && git push origin main",
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
